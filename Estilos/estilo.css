@@ -2,5 +2,16 @@
     font-family: "Kalnia Glaze", serif;
 }
 .sub-titulos{
-    animation-delay: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+    color: blue;
+}
+.texto{
+    background-color:aquamarine;
+    margin: auto;
+    padding: 50px;
+    font-family: "Oswald", sans-serif;
+}
+footer{
+    font-family: "Oswald", sans-serif;
 }
