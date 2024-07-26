@@ -1,5 +1,10 @@
 .ti{
     font-family: "Kalnia Glaze", serif;
+    font-size: 100px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
 }
 .sub-titulos{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,10 +13,22 @@
 }
 .texto{
     background-color:aquamarine;
-    margin: auto;
-    padding: 50px;
+    text-align: justify;
     font-family: "Oswald", sans-serif;
+    margin: 20px 10px;
+    padding: 20px 30px;
 }
+.imagenes{
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+}
+
 footer{
     font-family: "Oswald", sans-serif;
+}
+body{
+    background-color:aliceblue;
+    margin: 20px;
+    padding: 20px;
 }
