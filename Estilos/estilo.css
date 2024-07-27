@@ -1,15 +1,22 @@
 .ti{
-    font-family: "Kalnia Glaze", serif;
-    font-size: 100px;
-    margin: 0px;
+    font-family: "Honk", system-ui;
+    font-size: 200px;
+    margin: 0;
     border: 0px;
-    padding: 0px;
+    padding: 0;
     text-align: center;
 }
-.sub-titulos{
+.enlace{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: beige;
+    text-decoration: none;
     color: blue;
+}
+a:hover{
+    color: white;
+}
+.sub-titulos{
+    font-family: "Honk", system-ui;
+    color: black;
 }
 .texto{
     background-color:aquamarine;
@@ -23,12 +30,23 @@
     width: 200px;
     height: 150px;
 }
-
+.logo-redes img {
+    width: 50px; /* Ajusta este valor según tus necesidades */
+    height: auto; /* Mantener la proporción de aspecto */
+}
 footer{
     font-family: "Oswald", sans-serif;
+    color: white;
 }
 body{
-    background-color:aliceblue;
     margin: 20px;
-    padding: 20px;
+    padding: 0;
+    background-image: linear-gradient(orange,purple);
+}
+.contenedor-imagen{
+    display: flex;
+}
+.textos{
+    display: flex;
+    
 }
