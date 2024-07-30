@@ -57,8 +57,8 @@ body{
     align-items: stretch;
 }
 table{
-    color: aliceblue;
-    background-color: black;
+    color: black;
+    background-color: aquamarine;
 }
 .tabla{
     display: flex;
@@ -69,5 +69,9 @@ table{
     justify-content: center;
     height: 500px;
     width: auto;
-    
+    background-color: brown;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
