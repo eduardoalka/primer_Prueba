@@ -4,7 +4,7 @@
     margin: 0;
     border: 0px;
     padding: 0;
-    text-align: justify;
+    text-align: center;
 }
 .enlace{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -28,12 +28,13 @@ a:hover{
     background-color: aquamarine;
     box-sizing: content-box;
     max-height: 350px; /* Ajusta según sea necesario */
-    
+    border-style: dashed;
 }
 .imagenes{
     border-radius: 50%;
     width: 200px;
     height: 150px;
+    border-style: groove;
 }
 .logo-redes img {
     width: 50px; /* Ajusta este valor según tus necesidades */
@@ -69,9 +70,21 @@ table{
     justify-content: center;
     height: 500px;
     width: auto;
-    background-color: brown;
 }
 table,th,td{
     border: 1px solid black;
     border-collapse: collapse;
+}
+.logo-inicio{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-top: 83px;
+}
+.porta{
+    display: flex;
+    justify-content: center;
+}
+video{
+    border-style: double;
 }
