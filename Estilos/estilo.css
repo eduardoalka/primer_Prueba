@@ -4,26 +4,31 @@
     margin: 0;
     border: 0px;
     padding: 0;
-    text-align: center;
+    text-align: justify;
 }
 .enlace{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: blue;
+    color: white;
 }
 a:hover{
-    color: white;
+    color: purple;
 }
 .sub-titulos{
     font-family: "Honk", system-ui;
     color: black;
 }
 .texto{
-    background-color:aquamarine;
-    text-align: justify;
+    flex: 1;
     font-family: "Oswald", sans-serif;
-    margin: 20px 10px;
-    padding: 20px 30px;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 10px;
+    padding: 20px;
+    background-color: aquamarine;
+    box-sizing: content-box;
+    max-height: 350px; /* Ajusta según sea necesario */
+    
 }
 .imagenes{
     border-radius: 50%;
@@ -48,5 +53,21 @@ body{
 }
 .textos{
     display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+table{
+    color: aliceblue;
+    background-color: black;
+}
+.tabla{
+    display: flex;
+    justify-content: center;
+}
+.vidio{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: auto;
     
 }
