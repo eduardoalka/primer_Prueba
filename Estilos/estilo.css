@@ -12,7 +12,7 @@
     color: white;
 }
 a:hover{
-    color: purple;
+    color:darkkhaki;
 }
 .sub-titulos{
     font-family: "Honk", system-ui;
@@ -87,4 +87,16 @@ table,th,td{
 }
 video{
     border-style: double;
+}
+.tiitle{
+    background-color: blueviolet;
+    justify-content: center;
+    display: flex;
+    border-style: groove;
+    padding: 0px;
+    border-width: 10px;
+    margin: 0px;
+}
+.enlace.content{
+    margin: 50%;
 }
